@@ -1,1 +1,21 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-haw-eng.eng-haw.lrx -text
+/apertium-haw-eng.eng-haw.t1x -text
+/apertium-haw-eng.eng-haw.t2x -text
+/apertium-haw-eng.eng-haw.t3x -text
+/apertium-haw-eng.haw-eng.dix -text
+/apertium-haw-eng.haw-eng.lrx -text
+/apertium-haw-eng.haw-eng.t1x -text
+/apertium-haw-eng.haw-eng.t2x -text
+/apertium-haw-eng.haw-eng.t3x -text
+/autogen.sh -text
+/configure.ac -text
+/eng-haw.prob -text
+/haw-eng.prob -text svneol=unset#unset
+/modes.xml -text

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- haw → eng -->
+
+  <mode name="haw-eng" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="haw-eng.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="haw-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="haw-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="haw-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="haw-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-haw-eng.haw-eng.t1x"/>
+        <file name="haw-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-haw-eng.haw-eng.t2x"/>
+        <file name="haw-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-haw-eng.haw-eng.t3x"/>
+        <file name="haw-eng.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="haw-eng.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="haw-eng.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- eng → haw -->
+
+  <mode name="eng-haw" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-haw.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="eng-haw.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-haw.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-haw.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="eng-haw.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-haw-eng.eng-haw.t1x"/>
+        <file name="eng-haw.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-haw-eng.eng-haw.t2x"/>
+        <file name="eng-haw.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-haw-eng.eng-haw.t3x"/>
+        <file name="eng-haw.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="eng-haw.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="eng-haw.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
