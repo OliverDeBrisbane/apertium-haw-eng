@@ -10,8 +10,8 @@
     <sdef n="vblex"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
-    <sdef n="vbser"           c="'To be' verb"/>
-    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="vbser"           c="ʻTo beʻ verb"/>
+    <sdef n="vbhaver"         c="ʻTo haveʻ verb"/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
@@ -99,77 +99,77 @@
       
 	  <!-- SECTION: Nouns -->
 	   
-      <e><p><l>'a'a<s n="n"/></l><r>aa<s n="n"/></r></p></e>
-      <e><p><l>'a'i<s n="n"/></l><r>neck<s n="n"/></r></p></e>
-      <e><p><l>'a<s n="n"/></l><r>fire<s n="n"/></r></p></e>
-      <e><p><l>'ae<s n="n"/></l><r>sap<s n="n"/></r></p></e>
-      <e><p><l>'ai<s n="n"/></l><r>food<s n="n"/></r></p></e>
-      <e><p><l>'aina<b/>ahiahi<s n="n"/></l><r>dinner<s n="n"/></r></p></e>
-      <e><p><l>'aina<b/>awakea<s n="n"/></l><r>lunch<s n="n"/></r></p></e>
-      <e><p><l>'aina<b/>kakahiaka<s n="n"/></l><r>breakfast<s n="n"/></r></p></e>
-      <e><p><l>'aina<s n="n"/></l><r>land<s n="n"/></r></p></e>
-      <e><p><l>'aina<s n="n"/></l><r>meal<s n="n"/></r></p></e>
-      <e><p><l>'ainapuni'ole<s n="n"/></l><r>continent<s n="n"/></r></p></e>
-      <e><p><l>'aka'aka<s n="n"/></l><r>laughter<s n="n"/></r></p></e>
-      <e><p><l>'aka'akai<s n="n"/></l><r>onion<s n="n"/></r></p></e>
-      <e><p><l>'akau<s n="n"/></l><r>right<s n="n"/></r></p></e>
-      <e><p><l>'alala<s n="n"/></l><r>crow<s n="n"/></r></p></e>
-      <e><p><l>'alani<s n="n"/></l><r>orange<s n="n"/></r></p></e>
-      <e><p><l>'ana<s n="n"/></l><r>pumice<s n="n"/></r></p></e>
-      <e><p><l>'anakala<s n="n"/></l><r>uncle<s n="n"/></r></p></e>
-      <e><p><l>'anake<s n="n"/></l><r>aunt<s n="n"/></r></p></e>
-      <e><p><l>'anela<s n="n"/></l><r>angel<s n="n"/></r></p></e>
-      <e><p><l>'anemoku<s n="n"/></l><r>peninsula<s n="n"/></r></p></e>
-      <e><p><l>'ano'i<s n="n"/></l><r>desire<s n="n"/></r></p></e>
-      <e><p><l>'ano<s n="n"/></l><r>type<s n="n"/></r></p></e>
-      <e><p><l>'au<s n="n"/></l><r>stalk<s n="n"/></r></p></e>
-      <e><p><l>'auinala<s n="n"/></l><r>afternoon<s n="n"/></r></p></e>
-      <e><p><l>'aumakua<s n="n"/></l><r>god<s n="n"/></r></p></e>
-      <e><p><l>'awapuhi<s n="n"/></l><r>ginger<s n="n"/></r></p></e>
-      <e><p><l>'eha<s n="n"/></l><r>pain<s n="n"/></r></p></e>
-      <e><p><l>'ehu<s n="n"/></l><r>spray<s n="n"/></r></p></e>
-      <e><p><l>'i'ini<s n="n"/></l><r>desire<s n="n"/></r></p></e>
-      <e><p><l>'i<s n="n"/></l><r>saying<s n="n"/></r></p></e>
-      <e><p><l>'ike<s n="n"/></l><r>knowledge<s n="n"/></r></p></e>
-      <e><p><l>'ili<b/>la'au<s n="n"/></l><r>bark<s n="n"/></r></p></e>
-      <e><p><l>'ili<s n="n"/></l><r>skin<s n="n"/></r></p></e>
-      <e><p><l>'ilio<s n="n"/></l><r>dog<s n="n"/></r></p></e>
-      <e><p><l>'ino<s n="n"/></l><r>sin<s n="n"/></r></p></e>
-      <e><p><l>'io<s n="n"/></l><r>hawk<s n="n"/></r></p></e>
-      <e><p><l>'iole<b/>li'ili'i<s n="n"/></l><r>mouse<s n="n"/></r></p></e>
-      <e><p><l>'iole<s n="n"/></l><r>rat<s n="n"/></r></p></e>
-      <e><p><l>'o<s n="n"/></l><r>pin<s n="n"/></r></p></e>
-      <e><p><l>'ofeni<s n="n"/></l><r>offense<s n="n"/></r></p></e>
-      <e><p><l>'ohana<s n="n"/></l><r>family<s n="n"/></r></p></e>
-      <e><p><l>'ohe<s n="n"/></l><r>bamboo<s n="n"/></r></p></e>
-      <e><p><l>'ohelo<b/>papa<s n="n"/></l><r>strawberry<s n="n"/></r></p></e>
-      <e><p><l>'ohu<s n="n"/></l><r>fog<s n="n"/></r></p></e>
-      <e><p><l>'oia<s n="n"/></l><r>truth<s n="n"/></r></p></e>
-      <e><p><l>'oiwi<s n="n"/></l><r>physique<s n="n"/></r></p></e>
-      <e><p><l>'okina<s n="n"/></l><r>separation<s n="n"/></r></p></e>
-      <e><p><l>'okole<s n="n"/></l><r>buttocks<s n="n"/></r></p></e>
-      <e><p><l>'okolehao<s n="n"/></l><r>liquor<s n="n"/></r></p></e>
-      <e><p><l>'ole<s n="n"/></l><r>nothing<s n="n"/></r></p></e>
-      <e><p><l>'olelo<s n="n"/></l><r>language<s n="n"/></r></p></e>
-      <e><p><l>'olena<s n="n"/></l><r>turmeric<s n="n"/></r></p></e>
-      <e><p><l>'ope'ape'a<s n="n"/></l><r>bat<s n="n"/></r></p></e>
-      <e><p><l>'opu<s n="n"/></l><r>stomach<s n="n"/></r></p></e>
-      <e><p><l>'oumuamua<s n="n"/></l><r>scout<s n="n"/></r></p></e>
-      <e><p><l>'u<s n="n"/></l><r>grief<s n="n"/></r></p></e>
-      <e><p><l>'uhane<s n="n"/></l><r>soul<s n="n"/></r></p></e>
-      <e><p><l>'uholo<b/>uila<b/>'ane<s n="n"/></l><r>anode<s n="n"/></r></p></e>
-      <e><p><l>'uholo<b/>uila<b/>'ine<s n="n"/></l><r>cathode<s n="n"/></r></p></e>
-      <e><p><l>'uholo<b/>uila<s n="n"/></l><r>electrode<s n="n"/></r></p></e>
-      <e><p><l>'uku<b/>lio<s n="n"/></l><r>bedbug<s n="n"/></r></p></e>
-      <e><p><l>'uku<s n="n"/></l><r>louse<s n="n"/></r></p></e>
-      <e><p><l>'ukulele<s n="n"/></l><r>ukulele<s n="n"/></r></p></e>
-      <e><p><l>'ulu<s n="n"/></l><r>breadfruit<s n="n"/></r></p></e>
-      <e><p><l>'upa<s n="n"/></l><r>scissors<s n="n"/><s n="pl"/></r></p></e>
-      <e><p><l>a'a<s n="n"/></l><r>root<s n="n"/></r></p></e>
-      <e><p><l>a'e<s n="n"/></l><r>tree<s n="n"/></r></p></e>
-      <e><p><l>a'o<s n="n"/></l><r>instruction<s n="n"/></r></p></e>
+      <e><p><l>ʻaʻa<s n="n"/></l><r>aa<s n="n"/></r></p></e>
+      <e><p><l>ʻaʻi<s n="n"/></l><r>neck<s n="n"/></r></p></e>
+      <e><p><l>ʻa<s n="n"/></l><r>fire<s n="n"/></r></p></e>
+      <e><p><l>ʻae<s n="n"/></l><r>sap<s n="n"/></r></p></e>
+      <e><p><l>ʻai<s n="n"/></l><r>food<s n="n"/></r></p></e>
+      <e><p><l>ʻaina<b/>ahiahi<s n="n"/></l><r>dinner<s n="n"/></r></p></e>
+      <e><p><l>ʻaina<b/>awakea<s n="n"/></l><r>lunch<s n="n"/></r></p></e>
+      <e><p><l>ʻaina<b/>kakahiaka<s n="n"/></l><r>breakfast<s n="n"/></r></p></e>
+      <e><p><l>ʻaina<s n="n"/></l><r>land<s n="n"/></r></p></e>
+      <e><p><l>ʻaina<s n="n"/></l><r>meal<s n="n"/></r></p></e>
+      <e><p><l>ʻainapuniʻole<s n="n"/></l><r>continent<s n="n"/></r></p></e>
+      <e><p><l>ʻakaʻaka<s n="n"/></l><r>laughter<s n="n"/></r></p></e>
+      <e><p><l>ʻakaʻakai<s n="n"/></l><r>onion<s n="n"/></r></p></e>
+      <e><p><l>ʻakau<s n="n"/></l><r>right<s n="n"/></r></p></e>
+      <e><p><l>ʻalala<s n="n"/></l><r>crow<s n="n"/></r></p></e>
+      <e><p><l>ʻalani<s n="n"/></l><r>orange<s n="n"/></r></p></e>
+      <e><p><l>ʻana<s n="n"/></l><r>pumice<s n="n"/></r></p></e>
+      <e><p><l>ʻanakala<s n="n"/></l><r>uncle<s n="n"/></r></p></e>
+      <e><p><l>ʻanake<s n="n"/></l><r>aunt<s n="n"/></r></p></e>
+      <e><p><l>ʻanela<s n="n"/></l><r>angel<s n="n"/></r></p></e>
+      <e><p><l>ʻanemoku<s n="n"/></l><r>peninsula<s n="n"/></r></p></e>
+      <e><p><l>ʻanoʻi<s n="n"/></l><r>desire<s n="n"/></r></p></e>
+      <e><p><l>ʻano<s n="n"/></l><r>type<s n="n"/></r></p></e>
+      <e><p><l>ʻau<s n="n"/></l><r>stalk<s n="n"/></r></p></e>
+      <e><p><l>ʻauinala<s n="n"/></l><r>afternoon<s n="n"/></r></p></e>
+      <e><p><l>ʻaumakua<s n="n"/></l><r>god<s n="n"/></r></p></e>
+      <e><p><l>ʻawapuhi<s n="n"/></l><r>ginger<s n="n"/></r></p></e>
+      <e><p><l>ʻeha<s n="n"/></l><r>pain<s n="n"/></r></p></e>
+      <e><p><l>ʻehu<s n="n"/></l><r>spray<s n="n"/></r></p></e>
+      <e><p><l>ʻiʻini<s n="n"/></l><r>desire<s n="n"/></r></p></e>
+      <e><p><l>ʻi<s n="n"/></l><r>saying<s n="n"/></r></p></e>
+      <e><p><l>ʻike<s n="n"/></l><r>knowledge<s n="n"/></r></p></e>
+      <e><p><l>ʻili<b/>laʻau<s n="n"/></l><r>bark<s n="n"/></r></p></e>
+      <e><p><l>ʻili<s n="n"/></l><r>skin<s n="n"/></r></p></e>
+      <e><p><l>ʻilio<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+      <e><p><l>ʻino<s n="n"/></l><r>sin<s n="n"/></r></p></e>
+      <e><p><l>ʻio<s n="n"/></l><r>hawk<s n="n"/></r></p></e>
+      <e><p><l>ʻiole<b/>liʻiliʻi<s n="n"/></l><r>mouse<s n="n"/></r></p></e>
+      <e><p><l>ʻiole<s n="n"/></l><r>rat<s n="n"/></r></p></e>
+      <e><p><l>ʻo<s n="n"/></l><r>pin<s n="n"/></r></p></e>
+      <e><p><l>ʻofeni<s n="n"/></l><r>offense<s n="n"/></r></p></e>
+      <e><p><l>ʻohana<s n="n"/></l><r>family<s n="n"/></r></p></e>
+      <e><p><l>ʻohe<s n="n"/></l><r>bamboo<s n="n"/></r></p></e>
+      <e><p><l>ʻohelo<b/>papa<s n="n"/></l><r>strawberry<s n="n"/></r></p></e>
+      <e><p><l>ʻohu<s n="n"/></l><r>fog<s n="n"/></r></p></e>
+      <e><p><l>ʻoia<s n="n"/></l><r>truth<s n="n"/></r></p></e>
+      <e><p><l>ʻoiwi<s n="n"/></l><r>physique<s n="n"/></r></p></e>
+      <e><p><l>ʻokina<s n="n"/></l><r>separation<s n="n"/></r></p></e>
+      <e><p><l>ʻokole<s n="n"/></l><r>buttocks<s n="n"/></r></p></e>
+      <e><p><l>ʻokolehao<s n="n"/></l><r>liquor<s n="n"/></r></p></e>
+      <e><p><l>ʻole<s n="n"/></l><r>nothing<s n="n"/></r></p></e>
+      <e><p><l>ʻolelo<s n="n"/></l><r>language<s n="n"/></r></p></e>
+      <e><p><l>ʻolena<s n="n"/></l><r>turmeric<s n="n"/></r></p></e>
+      <e><p><l>ʻopeʻapeʻa<s n="n"/></l><r>bat<s n="n"/></r></p></e>
+      <e><p><l>ʻopu<s n="n"/></l><r>stomach<s n="n"/></r></p></e>
+      <e><p><l>ʻoumuamua<s n="n"/></l><r>scout<s n="n"/></r></p></e>
+      <e><p><l>ʻu<s n="n"/></l><r>grief<s n="n"/></r></p></e>
+      <e><p><l>ʻuhane<s n="n"/></l><r>soul<s n="n"/></r></p></e>
+      <e><p><l>ʻuholo<b/>uila<b/>ʻane<s n="n"/></l><r>anode<s n="n"/></r></p></e>
+      <e><p><l>ʻuholo<b/>uila<b/>ʻine<s n="n"/></l><r>cathode<s n="n"/></r></p></e>
+      <e><p><l>ʻuholo<b/>uila<s n="n"/></l><r>electrode<s n="n"/></r></p></e>
+      <e><p><l>ʻuku<b/>lio<s n="n"/></l><r>bedbug<s n="n"/></r></p></e>
+      <e><p><l>ʻuku<s n="n"/></l><r>louse<s n="n"/></r></p></e>
+      <e><p><l>ʻukulele<s n="n"/></l><r>ukulele<s n="n"/></r></p></e>
+      <e><p><l>ʻulu<s n="n"/></l><r>breadfruit<s n="n"/></r></p></e>
+      <e><p><l>ʻupa<s n="n"/></l><r>scissors<s n="n"/><s n="pl"/></r></p></e>
+      <e><p><l>aʻa<s n="n"/></l><r>root<s n="n"/></r></p></e>
+      <e><p><l>aʻe<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+      <e><p><l>aʻo<s n="n"/></l><r>instruction<s n="n"/></r></p></e>
       <e><p><l>a<s n="n"/></l><r>jaw<s n="n"/></r></p></e>
-      <e><p><l>ae'o<s n="n"/></l><r>stilt<s n="n"/></r></p></e>
+      <e><p><l>aeʻo<s n="n"/></l><r>stilt<s n="n"/></r></p></e>
       <e><p><l>ahi<s n="n"/></l><r>fire<s n="n"/></r></p></e>
       <e><p><l>ahiahi<s n="n"/></l><r>evening<s n="n"/></r></p></e>
       <e><p><l>aho<s n="n"/></l><r>breath<s n="n"/></r></p></e>
@@ -185,7 +185,7 @@
       <e><p><l>alani<s n="n"/></l><r>alga<s n="n"/></r></p></e>
       <e><p><l>alanui<s n="n"/></l><r>street<s n="n"/></r></p></e>
       <e><p><l>alelo<s n="n"/></l><r>tongue<s n="n"/></r></p></e>
-      <e><p><l>ali'i<s n="n"/></l><r>chief<s n="n"/></r></p></e>
+      <e><p><l>aliʻi<s n="n"/></l><r>chief<s n="n"/></r></p></e>
       <e><p><l>alo<s n="n"/></l><r>face<s n="n"/></r></p></e>
       <e><p><l>aloha<s n="n"/></l><r>love<s n="n"/></r></p></e>
       <e><p><l>amo<s n="n"/></l><r>burden<s n="n"/></r></p></e>
@@ -198,14 +198,14 @@
       <e><p><l>awa<s n="n"/></l><r>port<s n="n"/></r></p></e>
       <e><p><l>awakea<s n="n"/></l><r>noon<s n="n"/></r></p></e>
       <e><p><l>ea<s n="n"/></l><r>air<s n="n"/></r></p></e>
-      <e><p><l>ha'awi<s n="n"/></l><r>grant<s n="n"/></r></p></e>
-      <e><p><l>ha'awina<s n="n"/></l><r>lesson<s n="n"/></r></p></e>
+      <e><p><l>haʻawi<s n="n"/></l><r>grant<s n="n"/></r></p></e>
+      <e><p><l>haʻawina<s n="n"/></l><r>lesson<s n="n"/></r></p></e>
       <e><p><l>hae<s n="n"/></l><r>flag<s n="n"/></r></p></e>
       <e><p><l>haku<s n="n"/></l><r>stone<s n="n"/></r></p></e>
       <e><p><l>hala kahiki<s n="n"/></l><r>pineapple<s n="n"/></r></p></e>
       <e><p><l>hala<s n="n"/></l><r>error<s n="n"/></r></p></e>
       <e><p><l>hale<s n="n"/></l><r>house<s n="n"/></r></p></e>
-      <e><p><l>hame'a<s n="n"/></l><r>device<s n="n"/></r></p></e>
+      <e><p><l>hameʻa<s n="n"/></l><r>device<s n="n"/></r></p></e>
       <e><p><l>hana<s n="n"/></l><r>do<s n="n"/></r></p></e>
       <e><p><l>hana<s n="n"/></l><r>work<s n="n"/></r></p></e>
       <e><p><l>hanai<s n="n"/></l><r>orphan<s n="n"/></r></p></e>
@@ -213,10 +213,10 @@
       <e><p><l>hanu<s n="n"/></l><r>breath<s n="n"/></r></p></e>
       <e><p><l>haole<s n="n"/></l><r>English<s n="n"/></r></p></e>
       <e><p><l>hapa<s n="n"/></l><r>half<s n="n"/></r></p></e>
-      <e><p><l>hau'oli<s n="n"/></l><r>joy<s n="n"/></r></p></e>
+      <e><p><l>hauʻoli<s n="n"/></l><r>joy<s n="n"/></r></p></e>
       <e><p><l>hau<s n="n"/></l><r>snow<s n="n"/></r></p></e>
       <e><p><l>haumana<s n="n"/></l><r>disciple<s n="n"/></r></p></e>
-      <e><p><l>he'e<s n="n"/></l><r>octopus<s n="n"/></r></p></e>
+      <e><p><l>heʻe<s n="n"/></l><r>octopus<s n="n"/></r></p></e>
       <e><p><l>he<s n="n"/></l><r>grave<s n="n"/></r></p></e>
       <e><p><l>helu<s n="n"/></l><r>count<s n="n"/></r></p></e>
       <e><p><l>hema<s n="n"/></l><r>left<s n="n"/></r></p></e>
@@ -226,9 +226,9 @@
       <e><p><l>hiamoe<s n="n"/></l><r>sleep<s n="n"/></r></p></e>
       <e><p><l>hikina<s n="n"/></l><r>east<s n="n"/></r></p></e>
       <e><p><l>hili<s n="n"/></l><r>braid<s n="n"/></r></p></e>
-      <e><p><l>ho'oholo<s n="n"/></l><r>judgment<s n="n"/></r></p></e>
-      <e><p><l>ho'ola<s n="n"/></l><r>salvation<s n="n"/></r></p></e>
-      <e><p><l>ho'ole<b/>akua<s n="n"/></l><r>atheism<s n="n"/></r></p></e>
+      <e><p><l>hoʻoholo<s n="n"/></l><r>judgment<s n="n"/></r></p></e>
+      <e><p><l>hoʻola<s n="n"/></l><r>salvation<s n="n"/></r></p></e>
+      <e><p><l>hoʻole<b/>akua<s n="n"/></l><r>atheism<s n="n"/></r></p></e>
       <e><p><l>hoe<s n="n"/></l><r>oar<s n="n"/></r></p></e>
       <e><p><l>hoikiuna<s n="n"/></l><r>dolphin<s n="n"/></r></p></e>
       <e><p><l>hoku<b/>hele<s n="n"/></l><r>planet<s n="n"/></r></p></e>
@@ -240,8 +240,8 @@
       <e><p><l>honu<s n="n"/></l><r>turtle<s n="n"/></r></p></e>
       <e><p><l>honua<s n="n"/></l><r>earth<s n="n"/></r></p></e>
       <e><p><l>hua<b/>palapala<s n="n"/></l><r>letter<s n="n"/></r></p></e>
-      <e><p><l>hua'olelo<s n="n"/></l><r>word<s n="n"/></r></p></e>
-      <e><p><l>hua<b/>'olelo<s n="n"/></l><r>word<s n="n"/></r></p></e>
+      <e><p><l>huaʻolelo<s n="n"/></l><r>word<s n="n"/></r></p></e>
+      <e><p><l>hua<b/>ʻolelo<s n="n"/></l><r>word<s n="n"/></r></p></e>
       <e><p><l>hua<s n="n"/></l><r>egg<s n="n"/></r></p></e>
       <e><p><l>huako<s n="n"/></l><r>fructose<s n="n"/></r></p></e>
       <e><p><l>hue<s n="n"/></l><r>gourd<s n="n"/></r></p></e>
@@ -253,10 +253,10 @@
       <e><p><l>hulu<s n="n"/></l><r>feather<s n="n"/></r></p></e>
       <e><p><l>humuhumu<s n="n"/></l><r>triggerfish<s n="n"/></r></p></e>
       <e><p><l>huna hohoki<s n="n"/></l><r>neutron<s n="n"/></r></p></e>
-      <e><p><l>huna<b/>'ane<s n="n"/></l><r>proton<s n="n"/></r></p></e>
-      <e><p><l>huna<b/>'ine<s n="n"/></l><r>electron<s n="n"/></r></p></e>
-      <e><p><l>i'a<b/>'ula'ula<s n="n"/></l><r>goldfish<s n="n"/></r></p></e>
-      <e><p><l>i'a<s n="n"/></l><r>fish<s n="n"/></r></p></e>
+      <e><p><l>huna<b/>ʻane<s n="n"/></l><r>proton<s n="n"/></r></p></e>
+      <e><p><l>huna<b/>ʻine<s n="n"/></l><r>electron<s n="n"/></r></p></e>
+      <e><p><l>iʻa<b/>ʻulaʻula<s n="n"/></l><r>goldfish<s n="n"/></r></p></e>
+      <e><p><l>iʻa<s n="n"/></l><r>fish<s n="n"/></r></p></e>
       <e><p><l>iho<s n="n"/></l><r>below<s n="n"/></r></p></e>
       <e><p><l>iho<s n="n"/></l><r>core<s n="n"/></r></p></e>
       <e><p><l>ihu<s n="n"/></l><r>nose<s n="n"/></r></p></e>
@@ -266,14 +266,14 @@
       <e><p><l>iota<s n="n"/></l><r>jay<s n="n"/></r></p></e>
       <e><p><l>ipu<s n="n"/></l><r>bowl<s n="n"/></r></p></e>
       <e><p><l>iwi<s n="n"/></l><r>bone<s n="n"/></r></p></e>
-      <e><p><l>ka'a<s n="n"/></l><r>car<s n="n"/></r></p></e>
-      <e><p><l>ka'aka<s n="n"/></l><r>chap<s n="n"/></r></p></e>
+      <e><p><l>kaʻa<s n="n"/></l><r>car<s n="n"/></r></p></e>
+      <e><p><l>kaʻaka<s n="n"/></l><r>chap<s n="n"/></r></p></e>
       <e><p><l>kahakai<s n="n"/></l><r>beach<s n="n"/></r></p></e>
       <e><p><l>kahako<s n="n"/></l><r>macron<s n="n"/></r></p></e>
       <e><p><l>kahaone<s n="n"/></l><r>beach<s n="n"/></r></p></e>
       <e><p><l>kahi<s n="n"/></l><r>place<s n="n"/></r></p></e>
       <e><p><l>kahuna<s n="n"/></l><r>priest<s n="n"/></r></p></e>
-      <e><p><l>kai<b/>e'e<s n="n"/></l><r>tsunami<s n="n"/></r></p></e>
+      <e><p><l>kai<b/>eʻe<s n="n"/></l><r>tsunami<s n="n"/></r></p></e>
       <e><p><l>kai<s n="n"/></l><r>sea<s n="n"/></r></p></e>
       <e><p><l>kaikamahine<s n="n"/></l><r>daughter<s n="n"/></r></p></e>
       <e><p><l>kaimana<s n="n"/></l><r>diamond<s n="n"/></r></p></e>
@@ -287,7 +287,7 @@
       <e><p><l>kalapuna<s n="n"/></l><r>seagull<s n="n"/></r></p></e>
       <e><p><l>kalikimaka<s n="n"/></l><r>Christmas<s n="n"/></r></p></e>
       <e><p><l>kalo<s n="n"/></l><r>taro<s n="n"/></r></p></e>
-      <e><p><l>kama'aina<s n="n"/></l><r>Hawaiian<s n="n"/></r></p></e>
+      <e><p><l>kamaʻaina<s n="n"/></l><r>Hawaiian<s n="n"/></r></p></e>
       <e><p><l>kamakuaka<s n="n"/></l><r>kumquat<s n="n"/></r></p></e>
       <e><p><l>kamepiula<s n="n"/></l><r>computer<s n="n"/></r></p></e>
       <e><p><l>kanaka<s n="n"/></l><r>man<s n="n"/></r></p></e>
@@ -300,8 +300,8 @@
       <e><p><l>kau<s n="n"/></l><r>season<s n="n"/></r></p></e>
       <e><p><l>kaua<s n="n"/></l><r>army<s n="n"/></r></p></e>
       <e><p><l>kaumaha<s n="n"/></l><r>weight<s n="n"/></r></p></e>
-      <e><p><l>kaumoku'aina<s n="n"/></l><r>country<s n="n"/></r></p></e>
-      <e><p><l>ke'oke'o<s n="n"/></l><r>muslin<s n="n"/></r></p></e>
+      <e><p><l>kaumokuʻaina<s n="n"/></l><r>country<s n="n"/></r></p></e>
+      <e><p><l>keʻokeʻo<s n="n"/></l><r>muslin<s n="n"/></r></p></e>
       <e><p><l>ke<s n="n"/></l><r>complaint<s n="n"/></r></p></e>
       <e><p><l>keakea<s n="n"/></l><r>semen<s n="n"/></r></p></e>
       <e><p><l>keiki<b/>kane<s n="n"/></l><r>boy<s n="n"/></r></p></e>
@@ -309,7 +309,7 @@
       <e><p><l>keiki<s n="n"/></l><r>child<s n="n"/></r></p></e>
       <e><p><l>kenekoa<s n="n"/></l><r>senator<s n="n"/></r></p></e>
       <e><p><l>Kepani<s n="n"/></l><r>Japanese<s n="n"/></r></p></e>
-      <e><p><l>ki'i<s n="n"/></l><r>picture<s n="n"/></r></p></e>
+      <e><p><l>kiʻi<s n="n"/></l><r>picture<s n="n"/></r></p></e>
       <e><p><l>ki<s n="n"/></l><r>key<s n="n"/></r></p></e>
       <e><p><l>kiele<s n="n"/></l><r>gardenia<s n="n"/></r></p></e>
       <e><p><l>kiki<s n="n"/></l><r>plug<s n="n"/></r></p></e>
@@ -324,7 +324,7 @@
       <e><p><l>komo<s n="n"/></l><r>entrance<s n="n"/></r></p></e>
       <e><p><l>komohana<s n="n"/></l><r>west<s n="n"/></r></p></e>
       <e><p><l>kono<s n="n"/></l><r>invitation<s n="n"/></r></p></e>
-      <e><p><l>kopa'a<s n="n"/></l><r>sugar<s n="n"/></r></p></e>
+      <e><p><l>kopaʻa<s n="n"/></l><r>sugar<s n="n"/></r></p></e>
       <e><p><l>kopa<s n="n"/></l><r>soap<s n="n"/></r></p></e>
       <e><p><l>kua<s n="n"/></l><r>back<s n="n"/></r></p></e>
       <e><p><l>kuahiwi<s n="n"/></l><r>mountain<s n="n"/></r></p></e>
@@ -342,12 +342,12 @@
       <e><p><l>kuli<s n="n"/></l><r>knee<s n="n"/></r></p></e>
       <e><p><l>kumino<s n="n"/></l><r>cumin<s n="n"/></r></p></e>
       <e><p><l>kumu<s n="n"/></l><r>teacher<s n="n"/></r></p></e>
-      <e><p><l>kumula'au<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+      <e><p><l>kumulaʻau<s n="n"/></l><r>tree<s n="n"/></r></p></e>
       <e><p><l>kuna<s n="n"/></l><r>eel<s n="n"/></r></p></e>
       <e><p><l>kunanakauhale<s n="n"/></l><r>city<s n="n"/></r></p></e>
       <e><p><l>kupeleko<s n="n"/></l><r>cypress<s n="n"/></r></p></e>
       <e><p><l>kupuna<s n="n"/></l><r>grandparent<s n="n"/></r></p></e>
-      <e><p><l>la'au<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+      <e><p><l>laʻau<s n="n"/></l><r>tree<s n="n"/></r></p></e>
       <e><p><l>la<b/>noa<s n="n"/></l><r>weekday<s n="n"/></r></p></e>
       <e><p><l>la<s n="n"/></l><r>sun<s n="n"/></r></p></e>
       <e><p><l>lae<s n="n"/></l><r>forehead<s n="n"/></r></p></e>
@@ -361,8 +361,8 @@
       <e><p><l>lapuwale<s n="n"/></l><r>vanity<s n="n"/></r></p></e>
       <e><p><l>lau<s n="n"/></l><r>leaf<s n="n"/></r></p></e>
       <e><p><l>lauoho<s n="n"/></l><r>hair<s n="n"/></r></p></e>
-      <e><p><l>lawai'a<s n="n"/></l><r>fish<s n="n"/></r></p></e>
-      <e><p><l>lawai'a<s n="n"/></l><r>fisherman<s n="n"/></r></p></e>
+      <e><p><l>lawaiʻa<s n="n"/></l><r>fish<s n="n"/></r></p></e>
+      <e><p><l>lawaiʻa<s n="n"/></l><r>fisherman<s n="n"/></r></p></e>
       <e><p><l>lawe<s n="n"/></l><r>bearer<s n="n"/></r></p></e>
       <e><p><l>lei<s n="n"/></l><r>lei<s n="n"/></r></p></e>
       <e><p><l>leka<s n="n"/></l><r>letter<s n="n"/></r></p></e>
@@ -370,7 +370,7 @@
       <e><p><l>leo<s n="n"/></l><r>voice<s n="n"/></r></p></e>
       <e><p><l>lepelepe-o-hina<s n="n"/></l><r>seaweed<s n="n"/></r></p></e>
       <e><p><l>liha<s n="n"/></l><r>nit<s n="n"/></r></p></e>
-      <e><p><l>liliko'i<s n="n"/></l><r>passion<b/>fruit<s n="n"/></r></p></e>
+      <e><p><l>lilikoʻi<s n="n"/></l><r>passion<b/>fruit<s n="n"/></r></p></e>
       <e><p><l>lima<s n="n"/></l><r>hand<s n="n"/></r></p></e>
       <e><p><l>limu<s n="n"/></l><r>moss<s n="n"/></r></p></e>
       <e><p><l>lio<s n="n"/></l><r>horse<s n="n"/></r></p></e>
@@ -388,13 +388,13 @@
       <e><p><l>lua<s n="n"/></l><r>duplicate<s n="n"/></r></p></e>
       <e><p><l>luahine<s n="n"/></l><r>elder<s n="n"/></r></p></e>
       <e><p><l>lumi<s n="n"/></l><r>room<s n="n"/></r></p></e>
-      <e><p><l>ma'a<s n="n"/></l><r>custom<s n="n"/></r></p></e>
+      <e><p><l>maʻa<s n="n"/></l><r>custom<s n="n"/></r></p></e>
       <e><p><l>mahalo<s n="n"/></l><r>thanks<s n="n"/></r></p></e>
       <e><p><l>mahana<s n="n"/></l><r>warmth<s n="n"/></r></p></e>
       <e><p><l>mahina<s n="n"/></l><r>moon<s n="n"/></r></p></e>
-      <e><p><l>mai'a<s n="n"/></l><r>banana<s n="n"/></r></p></e>
-      <e><p><l>maika'i<s n="n"/></l><r>goodness<s n="n"/></r></p></e>
-      <e><p><l>maka'u<s n="n"/></l><r>fear<s n="n"/></r></p></e>
+      <e><p><l>maiʻa<s n="n"/></l><r>banana<s n="n"/></r></p></e>
+      <e><p><l>maikaʻi<s n="n"/></l><r>goodness<s n="n"/></r></p></e>
+      <e><p><l>makaʻu<s n="n"/></l><r>fear<s n="n"/></r></p></e>
       <e><p><l>maka<s n="n"/></l><r>eye<s n="n"/></r></p></e>
       <e><p><l>makahiki<s n="n"/></l><r>year<s n="n"/></r></p></e>
       <e><p><l>makana<s n="n"/></l><r>gift<s n="n"/></r></p></e>
@@ -407,16 +407,16 @@
       <e><p><l>malamalama<s n="n"/></l><r>clarity<s n="n"/></r></p></e>
       <e><p><l>malu<s n="n"/></l><r>peace<s n="n"/></r></p></e>
       <e><p><l>maluhia<s n="n"/></l><r>peace<s n="n"/></r></p></e>
-      <e><p><l>mana'o'i'o<s n="n"/></l><r>faith<s n="n"/></r></p></e>
-      <e><p><l>mana'o<s n="n"/></l><r>thought<s n="n"/></r></p></e>
-      <e><p><l>mana'olana<s n="n"/></l><r>hope<s n="n"/></r></p></e>
+      <e><p><l>manaʻoʻiʻo<s n="n"/></l><r>faith<s n="n"/></r></p></e>
+      <e><p><l>manaʻo<s n="n"/></l><r>thought<s n="n"/></r></p></e>
+      <e><p><l>manaʻolana<s n="n"/></l><r>hope<s n="n"/></r></p></e>
       <e><p><l>mana<s n="n"/></l><r>ability<s n="n"/></r></p></e>
       <e><p><l>manamana<s n="n"/></l><r>toe<s n="n"/></r></p></e>
       <e><p><l>manawa<s n="n"/></l><r>time<s n="n"/></r></p></e>
       <e><p><l>mano<s n="n"/></l><r>shark<s n="n"/></r></p></e>
       <e><p><l>manu<b/>paloke<s n="n"/></l><r>parrot<s n="n"/></r></p></e>
       <e><p><l>manu<s n="n"/></l><r>bird<s n="n"/></r></p></e>
-      <e><p><l>mau'u<s n="n"/></l><r>grass<s n="n"/></r></p></e>
+      <e><p><l>mauʻu<s n="n"/></l><r>grass<s n="n"/></r></p></e>
       <e><p><l>mauna<s n="n"/></l><r>mountain<s n="n"/></r></p></e>
       <e><p><l>mea inu<s n="n"/></l><r>drink<s n="n"/></r></p></e>
       <e><p><l>mea<s n="n"/></l><r>thing<s n="n"/></r></p></e>
@@ -424,23 +424,23 @@
       <e><p><l>meli<s n="n"/></l><r>honey<s n="n"/></r></p></e>
       <e><p><l>mikanele<s n="n"/></l><r>missionary<s n="n"/></r></p></e>
       <e><p><l>mimi<s n="n"/></l><r>urine<s n="n"/></r></p></e>
-      <e><p><l>mo'i<s n="n"/></l><r>king<s n="n"/></r></p></e>
-      <e><p><l>mo'o<s n="n"/></l><r>lizard<s n="n"/></r></p></e>
-      <e><p><l>mo'opuna<s n="n"/></l><r>grandchild<s n="n"/></r></p></e>
+      <e><p><l>moʻi<s n="n"/></l><r>king<s n="n"/></r></p></e>
+      <e><p><l>moʻo<s n="n"/></l><r>lizard<s n="n"/></r></p></e>
+      <e><p><l>moʻopuna<s n="n"/></l><r>grandchild<s n="n"/></r></p></e>
       <e><p><l>moa<s n="n"/></l><r>chicken<s n="n"/></r></p></e>
       <e><p><l>moana<s n="n"/></l><r>ocean<s n="n"/></r></p></e>
       <e><p><l>moena<s n="n"/></l><r>mat<s n="n"/></r></p></e>
-      <e><p><l>moku'aina<s n="n"/></l><r>state<s n="n"/></r></p></e>
+      <e><p><l>mokuʻaina<s n="n"/></l><r>state<s n="n"/></r></p></e>
       <e><p><l>moku<s n="n"/></l><r>island<s n="n"/></r></p></e>
       <e><p><l>mokuhonua<s n="n"/></l><r>continent<s n="n"/></r></p></e>
       <e><p><l>mokupuni<s n="n"/></l><r>island<s n="n"/></r></p></e>
       <e><p><l>momi<s n="n"/></l><r>pearl<s n="n"/></r></p></e>
       <e><p><l>monako<s n="n"/></l><r>glucose<s n="n"/></r></p></e>
-      <e><p><l>mu'umu'u<s n="n"/></l><r>muumuu<s n="n"/></r></p></e>
+      <e><p><l>muʻumuʻu<s n="n"/></l><r>muumuu<s n="n"/></r></p></e>
       <e><p><l>mu<s n="n"/></l><r>insect<s n="n"/></r></p></e>
       <e><p><l>mua<s n="n"/></l><r>leader<s n="n"/></r></p></e>
-      <e><p><l>na'au<s n="n"/></l><r>intestine<s n="n"/></r></p></e>
-      <e><p><l>na'okoko<s n="n"/></l><r>cholesterol<s n="n"/></r></p></e>
+      <e><p><l>naʻau<s n="n"/></l><r>intestine<s n="n"/></r></p></e>
+      <e><p><l>naʻokoko<s n="n"/></l><r>cholesterol<s n="n"/></r></p></e>
       <e><p><l>naheka<s n="n"/></l><r>snake<s n="n"/></r></p></e>
       <e><p><l>nalo meli<s n="n"/></l><r>bee<s n="n"/></r></p></e>
       <e><p><l>nalo<s n="n"/></l><r>fly<s n="n"/></r></p></e>
@@ -454,7 +454,7 @@
       <e><p><l>niho<s n="n"/></l><r>tooth<s n="n"/></r></p></e>
       <e><p><l>ninau<s n="n"/></l><r>question<s n="n"/></r></p></e>
       <e><p><l>niu<s n="n"/></l><r>coconut<s n="n"/></r></p></e>
-      <e><p><l>no'ono'o<s n="n"/></l><r>thought<s n="n"/></r></p></e>
+      <e><p><l>noʻonoʻo<s n="n"/></l><r>thought<s n="n"/></r></p></e>
       <e><p><l>noa<s n="n"/></l><r>commoner<s n="n"/></r></p></e>
       <e><p><l>noho<s n="n"/></l><r>sit<s n="n"/></r></p></e>
       <e><p><l>noi<s n="n"/></l><r>request<s n="n"/></r></p></e>
@@ -466,9 +466,9 @@
       <e><p><l>ola<s n="n"/></l><r>life<s n="n"/></r></p></e>
       <e><p><l>oli<s n="n"/></l><r>chant<s n="n"/></r></p></e>
       <e><p><l>one<s n="n"/></l><r>sand<s n="n"/></r></p></e>
-      <e><p><l>pa'a<s n="n"/></l><r>solid<s n="n"/></r></p></e>
-      <e><p><l>pa'akai<s n="n"/></l><r>salt<s n="n"/></r></p></e>
-      <e><p><l>pa'ina<s n="n"/></l><r>meal<s n="n"/></r></p></e>
+      <e><p><l>paʻa<s n="n"/></l><r>solid<s n="n"/></r></p></e>
+      <e><p><l>paʻakai<s n="n"/></l><r>salt<s n="n"/></r></p></e>
+      <e><p><l>paʻina<s n="n"/></l><r>meal<s n="n"/></r></p></e>
       <e><p><l>pakaua<s n="n"/></l><r>fort<s n="n"/></r></p></e>
       <e><p><l>Pake<s n="n"/></l><r>Chinese<s n="n"/></r></p></e>
       <e><p><l>palaoa<s n="n"/></l><r>bread<s n="n"/></r></p></e>
@@ -479,7 +479,7 @@
       <e><p><l>pane<s n="n"/></l><r>answer<s n="n"/></r></p></e>
       <e><p><l>paniolo<s n="n"/></l><r>cowboy<s n="n"/></r></p></e>
       <e><p><l>papalina<s n="n"/></l><r>cheek<s n="n"/></r></p></e>
-      <e><p><l>pe'a<s n="n"/></l><r>cross<s n="n"/></r></p></e>
+      <e><p><l>peʻa<s n="n"/></l><r>cross<s n="n"/></r></p></e>
       <e><p><l>pelapela<s n="n"/></l><r>filth<s n="n"/></r></p></e>
       <e><p><l>peni<s n="n"/></l><r>pen<s n="n"/></r></p></e>
       <e><p><l>penikala<s n="n"/></l><r>pencil<s n="n"/></r></p></e>
@@ -499,15 +499,15 @@
       <e><p><l>Pilipino<s n="n"/></l><r>Filipino<s n="n"/></r></p></e>
       <e><p><l>pineki<s n="n"/></l><r>peanut<s n="n"/></r></p></e>
       <e><p><l>pipi<s n="n"/></l><r>cow<s n="n"/></r></p></e>
-      <e><p><l>Po'aha<s n="n"/></l><r>Thursday<s n="n"/></r></p></e>
-      <e><p><l>Po'akahi<s n="n"/></l><r>Monday<s n="n"/></r></p></e>
-      <e><p><l>Po'akolu<s n="n"/></l><r>Wednesday<s n="n"/></r></p></e>
-      <e><p><l>Po'alima<s n="n"/></l><r>Friday<s n="n"/></r></p></e>
-      <e><p><l>Po'alua<s n="n"/></l><r>Tuesday<s n="n"/></r></p></e>
-      <e><p><l>Po'aono<s n="n"/></l><r>Saturday<s n="n"/></r></p></e>
-      <e><p><l>po'e<s n="n"/></l><r>people<s n="n"/></r></p></e>
-      <e><p><l>po'o<s n="n"/></l><r>head<s n="n"/></r></p></e>
-      <e><p><l>po'ohiwi<s n="n"/></l><r>shoulder<s n="n"/></r></p></e>
+      <e><p><l>Poʻaha<s n="n"/></l><r>Thursday<s n="n"/></r></p></e>
+      <e><p><l>Poʻakahi<s n="n"/></l><r>Monday<s n="n"/></r></p></e>
+      <e><p><l>Poʻakolu<s n="n"/></l><r>Wednesday<s n="n"/></r></p></e>
+      <e><p><l>Poʻalima<s n="n"/></l><r>Friday<s n="n"/></r></p></e>
+      <e><p><l>Poʻalua<s n="n"/></l><r>Tuesday<s n="n"/></r></p></e>
+      <e><p><l>Poʻaono<s n="n"/></l><r>Saturday<s n="n"/></r></p></e>
+      <e><p><l>poʻe<s n="n"/></l><r>people<s n="n"/></r></p></e>
+      <e><p><l>poʻo<s n="n"/></l><r>head<s n="n"/></r></p></e>
+      <e><p><l>poʻohiwi<s n="n"/></l><r>shoulder<s n="n"/></r></p></e>
       <e><p><l>po<s n="n"/></l><r>night<s n="n"/></r></p></e>
       <e><p><l>poe<s n="n"/></l><r>buoy<s n="n"/></r></p></e>
       <e><p><l>pohaku<s n="n"/></l><r>stone<s n="n"/></r></p></e>
@@ -516,14 +516,14 @@
       <e><p><l>pokole<s n="n"/></l><r>shortage<s n="n"/></r></p></e>
       <e><p><l>poloka<s n="n"/></l><r>frog<s n="n"/></r></p></e>
       <e><p><l>ponalo<s n="n"/></l><r>gnat<s n="n"/></r></p></e>
-      <e><p><l>pono'i<s n="n"/></l><r>self<s n="n"/></r></p></e>
+      <e><p><l>ponoʻi<s n="n"/></l><r>self<s n="n"/></r></p></e>
       <e><p><l>pono<s n="n"/></l><r>righteousness<s n="n"/></r></p></e>
       <e><p><l>popoki<s n="n"/></l><r>cat<s n="n"/></r></p></e>
       <e><p><l>pounamu<s n="n"/></l><r>jade<s n="n"/></r></p></e>
-      <e><p><l>pu'uwai<s n="n"/></l><r>heart<s n="n"/></r></p></e>
+      <e><p><l>puʻuwai<s n="n"/></l><r>heart<s n="n"/></r></p></e>
       <e><p><l>pu<b/>aloha<s n="n"/></l><r>salute<s n="n"/></r></p></e>
       <e><p><l>pu<s n="n"/></l><r>gun<s n="n"/></r></p></e>
-      <e><p><l>pua'a<s n="n"/></l><r>pig<s n="n"/></r></p></e>
+      <e><p><l>puaʻa<s n="n"/></l><r>pig<s n="n"/></r></p></e>
       <e><p><l>pua<s n="n"/></l><r>flower<s n="n"/></r></p></e>
       <e><p><l>pueo<s n="n"/></l><r>owl<s n="n"/></r></p></e>
       <e><p><l>puhi<s n="n"/></l><r>eel<s n="n"/></r></p></e>
@@ -535,14 +535,14 @@
       <e><p><l>pupu<s n="n"/></l><r>shell<s n="n"/></r></p></e>
       <e><p><l>shibai<s n="n"/></l><r>show<s n="n"/></r></p></e>
       <e><p><l>tutu<s n="n"/></l><r>grandmother<s n="n"/></r></p></e>
-      <e><p><l>u'i<s n="n"/></l><r>hero<s n="n"/></r></p></e>
+      <e><p><l>uʻi<s n="n"/></l><r>hero<s n="n"/></r></p></e>
       <e><p><l>u<s n="n"/></l><r>breast<s n="n"/></r></p></e>
       <e><p><l>ua<s n="n"/></l><r>rain<s n="n"/></r></p></e>
       <e><p><l>uahi<s n="n"/></l><r>smoke<s n="n"/></r></p></e>
       <e><p><l>uhi<s n="n"/></l><r>yam<s n="n"/></r></p></e>
       <e><p><l>uila<s n="n"/></l><r>electricity<s n="n"/></r></p></e>
       <e><p><l>ula<s n="n"/></l><r>lobster<s n="n"/></r></p></e>
-      <e><p><l>ulu<b/>la'au<s n="n"/></l><r>forest<s n="n"/></r></p></e>
+      <e><p><l>ulu<b/>laʻau<s n="n"/></l><r>forest<s n="n"/></r></p></e>
       <e><p><l>ulu<s n="n"/></l><r>growth<s n="n"/></r></p></e>
       <e><p><l>waha<s n="n"/></l><r>mouth<s n="n"/></r></p></e>
       <e><p><l>wahine<s n="n"/></l><r>woman<s n="n"/></r></p></e>
@@ -558,29 +558,29 @@
 
       <!-- SECTION: Adjectives -->
 	   
-      <e><p><l>'okina<s n="adj"/></l><r>native<s n="adj"/></r></p></e>
-      <e><p><l>'ono<s n="adj"/></l><r>delicious<s n="adj"/></r></p></e>
-      <e><p><l>a'ole<s n="adj"/></l><r>nonexistent<s n="adj"/></r></p></e>
+      <e><p><l>ʻokina<s n="adj"/></l><r>native<s n="adj"/></r></p></e>
+      <e><p><l>ʻono<s n="adj"/></l><r>delicious<s n="adj"/></r></p></e>
+      <e><p><l>aʻole<s n="adj"/></l><r>nonexistent<s n="adj"/></r></p></e>
       <e><p><l>akamai<s n="adj"/></l><r>clever<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>akeakamai<s n="adj"/></l><r>scientific<s n="adj"/></r></p></e>
       <e><p><l>akua<s n="adj"/></l><r>divine<s n="adj"/></r></p></e>
-      <e><p><l>ali'i<s n="adj"/></l><r>noble<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>aliʻi<s n="adj"/></l><r>noble<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>anuanu<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e>
-      <e><p><l>hau'oli<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>hauʻoli<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>hou<s n="adj"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>ikaika<s n="adj"/></l><r>strong<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>kahiko<s n="adj"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>kaumaha<s n="adj"/></l><r>sad<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>lani<s n="adj"/></l><r>celestial<s n="adj"/></r></p></e>
-      <e><p><l>li'ili'i<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>liʻiliʻi<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>like<s n="adj"/></l><r>alike<s n="adj"/></r></p></e>
-      <e><p><l>maika'i<s n="adj"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e>
-      <e><p><l>ma'ila<s n="adj"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>maikaʻi<s n="adj"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>maʻila<s n="adj"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>maluhiluhi<s n="adj"/></l><r>tired<s n="adj"/></r></p></e>
       <e><p><l>mu<s n="adj"/></l><r>tired<s n="adj"/></r></p></e>
       <e><p><l>nani<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
       <e><p><l>nui<s n="adj"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e>
-      <e><p><l>pa'a<s n="adj"/></l><r>firm<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>paʻa<s n="adj"/></l><r>firm<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>pololi<s n="adj"/></l><r>hungry<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>wela<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e>
 	   
