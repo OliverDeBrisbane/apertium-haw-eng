@@ -560,29 +560,29 @@
 	   
       <e><p><l>'okina<s n="adj"/></l><r>native<s n="adj"/></r></p></e>
       <e><p><l>'ono<s n="adj"/></l><r>delicious<s n="adj"/></r></p></e>
-      <e><p><l>a'ole<s n="adj"/></l><r>none<s n="adj"/></r></p></e>
-      <e><p><l>akamai<s n="adj"/></l><r>clever<s n="adj"/></r></p></e>
+      <e><p><l>a'ole<s n="adj"/></l><r>nonexistent<s n="adj"/></r></p></e>
+      <e><p><l>akamai<s n="adj"/></l><r>clever<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>akeakamai<s n="adj"/></l><r>scientific<s n="adj"/></r></p></e>
       <e><p><l>akua<s n="adj"/></l><r>divine<s n="adj"/></r></p></e>
-      <e><p><l>ali'i<s n="adj"/></l><r>noble<s n="adj"/></r></p></e>
-      <e><p><l>anuanu<s n="adj"/></l><r>cold<s n="adj"/></r></p></e>
-      <e><p><l>hau'oli<s n="adj"/></l><r>happy<s n="adj"/></r></p></e>
-      <e><p><l>hou<s n="adj"/></l><r>new<s n="adj"/></r></p></e>
-      <e><p><l>ikaika<s n="adj"/></l><r>strong<s n="adj"/></r></p></e>
-      <e><p><l>kahiko<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
-      <e><p><l>kaumaha<s n="adj"/></l><r>sad<s n="adj"/></r></p></e>
+      <e><p><l>ali'i<s n="adj"/></l><r>noble<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>anuanu<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>hau'oli<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>hou<s n="adj"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>ikaika<s n="adj"/></l><r>strong<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>kahiko<s n="adj"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>kaumaha<s n="adj"/></l><r>sad<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>lani<s n="adj"/></l><r>celestial<s n="adj"/></r></p></e>
-      <e><p><l>li'ili'i<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+      <e><p><l>li'ili'i<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>like<s n="adj"/></l><r>alike<s n="adj"/></r></p></e>
-      <e><p><l>maika'i<s n="adj"/></l><r>good<s n="adj"/></r></p></e>
-      <e><p><l>ma'ila<s n="adj"/></l><r>clear<s n="adj"/></r></p></e>
+      <e><p><l>maika'i<s n="adj"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>ma'ila<s n="adj"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>maluhiluhi<s n="adj"/></l><r>tired<s n="adj"/></r></p></e>
       <e><p><l>mu<s n="adj"/></l><r>tired<s n="adj"/></r></p></e>
       <e><p><l>nani<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
-      <e><p><l>nui<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
-      <e><p><l>pa'a<s n="adj"/></l><r>firm<s n="adj"/></r></p></e>
-      <e><p><l>pololi<s n="adj"/></l><r>hungry<s n="adj"/></r></p></e>
-      <e><p><l>wela<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
+      <e><p><l>nui<s n="adj"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>pa'a<s n="adj"/></l><r>firm<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>pololi<s n="adj"/></l><r>hungry<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>wela<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e>
 	   
       <!-- SECTION: Verbs -->
 	   
