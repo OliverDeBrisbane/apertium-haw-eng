@@ -96,6 +96,10 @@
   </sdefs>
 
    <section id="main" type="standard">
+      <!-- SECTION: Determiners -->
+      <e><p><l>ka<s n="det"/></l><r>the<s n="det"/></r></p></e>
+      <e><p><l>ke<s n="det"/></l><r>the<s n="det"/></r></p></e>
+      <e><p><l>keia<s n="det"/></l><r>this<s n="det"/></r></p></e>
       
 	  <!-- SECTION: Nouns -->
 	   
@@ -292,7 +296,7 @@
       <e><p><l>kamepiula<s n="n"/></l><r>computer<s n="n"/></r></p></e>
       <e><p><l>kanaka<s n="n"/></l><r>man<s n="n"/></r></p></e>
       <e><p><l>kanaluna<s n="n"/></l><r>lantern<s n="n"/></r></p></e>
-      <e><p><l>kane<s n="n"/></l><r>male<s n="n"/></r></p></e>
+      <e><p><l>kane<s n="n"/></l><r>man<s n="n"/></r></p></e>
       <e><p><l>kani<s n="n"/></l><r>sound<s n="n"/></r></p></e>
       <e><p><l>kapa<s n="n"/></l><r>rim<s n="n"/></r></p></e>
       <e><p><l>kapikala<s n="n"/></l><r>capital<s n="n"/></r></p></e>
@@ -302,10 +306,8 @@
       <e><p><l>kaumaha<s n="n"/></l><r>weight<s n="n"/></r></p></e>
       <e><p><l>kaumokuʻaina<s n="n"/></l><r>country<s n="n"/></r></p></e>
       <e><p><l>keʻokeʻo<s n="n"/></l><r>muslin<s n="n"/></r></p></e>
-      <e><p><l>ke<s n="n"/></l><r>complaint<s n="n"/></r></p></e>
       <e><p><l>keakea<s n="n"/></l><r>semen<s n="n"/></r></p></e>
       <e><p><l>keiki<b/>kane<s n="n"/></l><r>boy<s n="n"/></r></p></e>
-      <e><p><l>keiki<s n="n"/></l><r>child<s n="n"/></r></p></e>
       <e><p><l>keiki<s n="n"/></l><r>child<s n="n"/></r></p></e>
       <e><p><l>kenekoa<s n="n"/></l><r>senator<s n="n"/></r></p></e>
       <e><p><l>Kepani<s n="n"/></l><r>Japanese<s n="n"/></r></p></e>
@@ -610,7 +612,27 @@
       <e><p><l>kono<s n="vblex"/></l><r>invite<s n="vblex"/></r></p></e>
       <e><p><l>kua<s n="vblex"/></l><r>chop<s n="vblex"/></r></p></e>
       <e><p><l>makemake<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
-      <e><p><l>house<s n="n"/><s n="sg"/></l><r>house<s n="n"/><s n="sg"/></r></p></e>
+	   
+      <!-- SECTION: Prepositions -->
+
+      <e><p><l>a<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+      <e><p><l>aʻe<s n="pr"/></l><r>next<s n="pr"/></r></p></e>
+      <e><p><l>aʻo<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+      <e><p><l>e<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
+      <e><p><l>i<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+      <e><p><l>ko<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+      <e><p><l>ma<s n="pr"/></l><r>at<s n="pr"/></r></p></e>
+      <e><p><l>mai<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+      <e><p><l>me<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+      <e><p><l>na<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+      <e><p><l>no<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+      <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+	   
+      <!-- SECTION: Conjunctions -->
+
+      <e><p><l>a<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+      <e><p><l>a<b/>me<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+      <e><p><l>o<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

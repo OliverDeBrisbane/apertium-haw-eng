@@ -4,8 +4,34 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
-    <def-cat n="sent">
-      <cat-item tags="sent"/>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+    </def-cat>
+    <def-cat n="noun">
+      <cat-item tags="n.*"/>
+      <cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="np">
+      <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
+    <def-cat n="vrb">
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="vbmod.*"/>
+    </def-cat>          
+    <def-cat n="adv">
+      <cat-item tags="adv.*"/>
+    </def-cat>
+    <def-cat n="prn">
+      <cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="det">
+      <cat-item tags="det.*"/>
+    </def-cat>
+    <def-cat n="dem.det">
+      <cat-item tags="dem"/>
     </def-cat>
   </section-def-cats>
 
@@ -13,10 +39,75 @@
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
     </def-attr>
+	  
+    <def-attr n="gloss">
+      <attr-item tags="ant"/>
+      <attr-item tags="top"/>
+      <attr-item tags="sint"/>
+      <attr-item tags="dem"/>
+      <attr-item tags="qnt"/>
+    </def-attr>
+
+    <def-attr n="number">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+
+    <def-attr n="word_type">
+      <attr-item tags="adj"/>
+      <attr-item tags="n"/>
+      <attr-item tags="np"/>
+      <attr-item tags="num"/>
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="adv"/>
+      <attr-item tags="prn"/>
+      <attr-item tags="pr"/>
+      <attr-item tags="det"/>
+    </def-attr>
+
+    <def-attr n="tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="pret"/>
+      <attr-item tags="past"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="aor"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="pp2"/>
+      <attr-item tags="pp3"/>
+      <attr-item tags="pprs"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="supn"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="fti"/>
+      <attr-item tags="ftp"/>
+      <attr-item tags="fts"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="plu"/>
+      <attr-item tags="pmp"/>
+      <attr-item tags="pms"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="aff"/>
+      <attr-item tags="itg"/>
+      <attr-item tags="neg"/>
+	  <attr-item tags="impf"/>
+	  <attr-item tags="infp"/>
+	  <attr-item tags="pfut"/>
+	</def-attr>
+
+    <def-attr n="det_type">
+      <attr-item tags="def"/>
+      <attr-item tags="dem"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
-    <def-var n="number"/>
+    <def-var n="n"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -29,23 +120,70 @@
   </section-def-macros>
 
   <section-rules>
-    <rule comment="REGLA: SENT">
+    <rule comment="RULE: Remove person for demonstrative determiners">
       <pattern>
-        <pattern-item n="sent"/>
+        <pattern-item n="det"/>
       </pattern>
       <action>
         <out>
-          <chunk name="sent" case="caseFirstWord">
+          <chunk name="det">
             <tags>
-              <tag><lit-tag v="SENT"/></tag>
+              <tag><lit-tag v="SN"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="word_type"/>
+              <clip pos="1" side="tl" part="det_type"/>
+              <clip pos="1" side="tl" part="number"/>
             </lu>
           </chunk>
         </out>
       </action>
     </rule>
+
+	<rule comment="RULE: Rearrange and translate simple sentences (ADJ DET NOM)">
+	  <pattern>
+		<pattern-item n="adj"/>
+		<pattern-item n="det"/>
+		<pattern-item n="nom"/>
+	  </pattern>
+	  <action>
+		<out>
+		  <chunk name="n">
+			<tags>
+			  <tag><lit-tag v="SN"/></tag>
+			</tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="word_type"/>
+              <clip pos="2" side="tl" part="det_type"/>
+              <clip pos="2" side="tl" part="number"/>
+            </lu>
+			<b/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="word_type"/>
+              <clip pos="3" side="tl" part="number"/>
+            </lu>
+			<b/>
+			<lu>
+			  <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="p3"/>
+              <clip pos="3" side="tl" part="number"/>
+			</lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="word_type"/>
+              <clip pos="1" side="tl" part="gloss"/>
+            </lu>
+		  </chunk>
+		</out>
+	  </action>
+	</rule>
+
   </section-rules>
 </transfer>
 
