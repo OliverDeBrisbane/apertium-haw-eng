@@ -6,6 +6,7 @@
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
     </def-cat>
     <def-cat n="noun">
       <cat-item tags="n.*"/>
@@ -20,7 +21,10 @@
     <def-cat n="vrb">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbmod.*"/>
-    </def-cat>          
+    </def-cat> 
+    <def-cat n="vbser">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
     </def-cat>
@@ -30,8 +34,11 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
-    <def-cat n="dem.det">
-      <cat-item tags="dem"/>
+    <def-cat n="det_dem">
+      <cat-item tags="det.dem.*"/>
+    </def-cat>
+    <def-cat n="det_def">
+      <cat-item tags="det.def.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -54,7 +61,7 @@
       <attr-item tags="sp"/>
     </def-attr>
 
-    <def-attr n="word_type">
+    <def-attr n="pos">
       <attr-item tags="adj"/>
       <attr-item tags="n"/>
       <attr-item tags="np"/>
@@ -120,27 +127,6 @@
   </section-def-macros>
 
   <section-rules>
-    <rule comment="RULE: Remove person for demonstrative determiners">
-      <pattern>
-        <pattern-item n="det"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="det">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="word_type"/>
-              <clip pos="1" side="tl" part="det_type"/>
-              <clip pos="1" side="tl" part="number"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
 	<rule comment="RULE: Rearrange and translate simple sentences (ADJ DET NOM)">
 	  <pattern>
 		<pattern-item n="adj"/>
@@ -155,14 +141,14 @@
 			</tags>
             <lu>
               <clip pos="2" side="tl" part="lem"/>
-              <clip pos="2" side="tl" part="word_type"/>
+              <clip pos="2" side="tl" part="pos"/>
               <clip pos="2" side="tl" part="det_type"/>
               <clip pos="2" side="tl" part="number"/>
             </lu>
 			<b/>
             <lu>
               <clip pos="3" side="tl" part="lem"/>
-              <clip pos="3" side="tl" part="word_type"/>
+              <clip pos="3" side="tl" part="pos"/>
               <clip pos="3" side="tl" part="number"/>
             </lu>
 			<b/>
@@ -176,14 +162,13 @@
             <b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="word_type"/>
+              <clip pos="1" side="tl" part="pos"/>
               <clip pos="1" side="tl" part="gloss"/>
             </lu>
 		  </chunk>
 		</out>
 	  </action>
 	</rule>
-
   </section-rules>
 </transfer>
 

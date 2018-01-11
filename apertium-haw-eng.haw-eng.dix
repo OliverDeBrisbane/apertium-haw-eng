@@ -96,10 +96,14 @@
   </sdefs>
 
    <section id="main" type="standard">
+
       <!-- SECTION: Determiners -->
+
       <e><p><l>ka<s n="det"/></l><r>the<s n="det"/></r></p></e>
       <e><p><l>ke<s n="det"/></l><r>the<s n="det"/></r></p></e>
       <e><p><l>keia<s n="det"/></l><r>this<s n="det"/></r></p></e>
+      <e><p><l>kela<s n="det"/></l><r>that<s n="det"/></r></p></e>
+      <e><p><l>kena<s n="det"/></l><r>that<s n="det"/></r></p></e>
       
 	  <!-- SECTION: Nouns -->
 	   
@@ -585,10 +589,10 @@
       <e><p><l>paʻa<s n="adj"/></l><r>firm<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>pololi<s n="adj"/></l><r>hungry<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>wela<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e>
-	   
+
       <!-- SECTION: Verbs -->
-	   
-      <e><p><l>aho<s n="vblex"/></l><r>breathe<s n="vblex"/></r></p></e>
+
+	  <e><p><l>aho<s n="vblex"/></l><r>breathe<s n="vblex"/></r></p></e>
       <e><p><l>aloha<s n="vblex"/></l><r>love<s n="vblex"/></r></p></e>
       <e><p><l>haku<s n="vblex"/></l><r>invent<s n="vblex"/></r></p></e>
       <e><p><l>hali<s n="vblex"/></l><r>carry<s n="vblex"/></r></p></e>
@@ -612,7 +616,9 @@
       <e><p><l>kono<s n="vblex"/></l><r>invite<s n="vblex"/></r></p></e>
       <e><p><l>kua<s n="vblex"/></l><r>chop<s n="vblex"/></r></p></e>
       <e><p><l>makemake<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
-	   
+
+	  <e><p><l><s n="vbser"/></l><r>be<s n="vbser"/></r></p></e> <!--placeholder entry used to correctly tag the verb 'be' for eng-haw translation -->
+
       <!-- SECTION: Prepositions -->
 
       <e><p><l>a<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
@@ -627,7 +633,7 @@
       <e><p><l>na<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
       <e><p><l>no<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
       <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
-	   
+
       <!-- SECTION: Conjunctions -->
 
       <e><p><l>a<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
