@@ -169,6 +169,50 @@
 		</out>
 	  </action>
 	</rule>
+
+	<rule comment="RULE: Rearrange and translate simple sentences (DET-DEF NOM DET-DEM)">
+	  <pattern>
+		<pattern-item n="det_def"/>
+		<pattern-item n="nom"/>
+		<pattern-item n="det_dem"/>
+	  </pattern>
+	  <action>
+		<out>
+		  <chunk name="n">
+			<tags>
+			  <tag><lit-tag v="SN"/></tag>
+			</tags>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="pos"/>
+              <clip pos="3" side="tl" part="det_type"/>
+              <clip pos="3" side="tl" part="number"/>
+            </lu>
+			<b/>
+			<lu>
+			  <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="p3"/>
+              <clip pos="3" side="tl" part="number"/>
+			</lu>
+			<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="pos"/>
+              <clip pos="1" side="tl" part="det_type"/>
+              <clip pos="1" side="tl" part="number"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="pos"/>
+              <clip pos="2" side="tl" part="number"/>
+            </lu>
+		  </chunk>
+		</out>
+	  </action>
+	</rule>
   </section-rules>
 </transfer>
 

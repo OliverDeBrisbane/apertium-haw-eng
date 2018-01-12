@@ -21,10 +21,10 @@
     <def-cat n="vrb">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbmod.*"/>
-    </def-cat>
+    </def-cat> 
     <def-cat n="vbser">
       <cat-item tags="vbser.*"/>
-    </def-cat>          
+    </def-cat>
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
     </def-cat>
@@ -156,6 +156,43 @@
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="pos"/>
               <clip pos="2" side="tl" part="number"/>
+            </lu>
+		  </chunk>
+		</out>
+	  </action>
+	</rule>
+
+	<rule comment="RULE: Rearrange and translate simple sentences (DET-DEM VBSER DET-DEF NOM)">
+	  <pattern>
+		<pattern-item n="det_dem"/>
+		<pattern-item n="vbser"/>
+		<pattern-item n="det_def"/>
+		<pattern-item n="nom"/>
+	  </pattern>
+	  <action>
+		<out>
+		  <chunk name="n">
+			<tags>
+			  <tag><lit-tag v="SN"/></tag>
+			</tags>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="pos"/>
+              <clip pos="3" side="tl" part="det_type"/>
+              <clip pos="3" side="tl" part="number"/>
+            </lu>
+			<b/>
+            <lu>
+              <clip pos="4" side="tl" part="lem"/>
+              <clip pos="4" side="tl" part="pos"/>
+              <clip pos="4" side="tl" part="number"/>
+            </lu>
+			<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="pos"/>
+              <clip pos="1" side="tl" part="det_type"/>
+              <clip pos="1" side="tl" part="number"/>
             </lu>
 		  </chunk>
 		</out>
