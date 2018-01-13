@@ -104,6 +104,11 @@
       <e><p><l>keia<s n="det"/></l><r>this<s n="det"/></r></p></e>
       <e><p><l>kela<s n="det"/></l><r>that<s n="det"/></r></p></e>
       <e><p><l>kena<s n="det"/></l><r>that<s n="det"/></r></p></e>
+	   
+      <!-- SECTION: Pronouns -->
+
+      <e><p><l>keia<s n="prn"/></l><r>this<s n="prn"/></r></p></e>
+      <e><p><l>kela<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
       
 	  <!-- SECTION: Nouns -->
 	   

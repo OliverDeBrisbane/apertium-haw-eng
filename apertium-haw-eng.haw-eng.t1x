@@ -40,6 +40,9 @@
     <def-cat n="det_def">
       <cat-item tags="det.def.*"/>
     </def-cat>
+    <def-cat n="prn_dem">
+      <cat-item tags="prn.dem.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -52,6 +55,7 @@
       <attr-item tags="top"/>
       <attr-item tags="sint"/>
       <attr-item tags="dem"/>
+      <attr-item tags="def"/>
       <attr-item tags="qnt"/>
     </def-attr>
 
@@ -106,10 +110,11 @@
 	  <attr-item tags="infp"/>
 	  <attr-item tags="pfut"/>
 	</def-attr>
-
-    <def-attr n="det_type">
-      <attr-item tags="def"/>
-      <attr-item tags="dem"/>
+	  
+    <def-attr n="gender">
+        <attr-item tags="m"/>
+        <attr-item tags="f"/>
+        <attr-item tags="mf"/>
     </def-attr>
   </section-def-attrs>
 
@@ -142,7 +147,7 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="pos"/>
-              <clip pos="2" side="tl" part="det_type"/>
+              <clip pos="2" side="tl" part="gloss"/>
               <clip pos="2" side="tl" part="number"/>
             </lu>
 			<b/>
@@ -170,11 +175,11 @@
 	  </action>
 	</rule>
 
-	<rule comment="RULE: Rearrange and translate simple sentences (DET-DEF NOM DET-DEM)">
+	<rule comment="RULE: Rearrange and translate simple sentences (DET-DEF NOM PRN-DEM)">
 	  <pattern>
 		<pattern-item n="det_def"/>
 		<pattern-item n="nom"/>
-		<pattern-item n="det_dem"/>
+		<pattern-item n="prn_dem"/>
 	  </pattern>
 	  <action>
 		<out>
@@ -185,7 +190,8 @@
             <lu>
               <clip pos="3" side="tl" part="lem"/>
               <clip pos="3" side="tl" part="pos"/>
-              <clip pos="3" side="tl" part="det_type"/>
+              <clip pos="3" side="tl" part="gloss"/>
+              <clip pos="3" side="tl" part="gender"/>
               <clip pos="3" side="tl" part="number"/>
             </lu>
 			<b/>
@@ -200,7 +206,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="pos"/>
-              <clip pos="1" side="tl" part="det_type"/>
+              <clip pos="1" side="tl" part="gloss"/>
               <clip pos="1" side="tl" part="number"/>
             </lu>
             <b/>
