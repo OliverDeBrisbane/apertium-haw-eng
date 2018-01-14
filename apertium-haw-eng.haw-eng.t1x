@@ -123,15 +123,69 @@
   </section-def-vars>
 
   <section-def-macros>
-    <def-macro n="test" npar="1">
+    <def-macro n="nom_number_from_det" npar="2">
+      <choose>
+        <when>
+          <test>
+		    <equal>
+			  <clip pos="1" side="sl" part="number"/>
+			  <lit-tag v="sg"/>
+		    </equal>
+          </test>
           <let>
-            <var n="number"/>
-            <lit v=""/>
+            <clip pos="2" side="tl" part="number"/>
+            <lit-tag v="sg"/>
           </let>
+        </when>
+        <when>
+          <test>
+		    <equal>
+			  <clip pos="1" side="sl" part="number"/>
+			  <lit-tag v="pl"/>
+		    </equal>
+          </test>
+          <let>
+            <clip pos="2" side="tl" part="number"/>
+            <lit-tag v="pl"/>
+          </let>
+        </when>
+      </choose>
     </def-macro>
   </section-def-macros>
 
   <section-rules>
+    <rule comment="RULE: Translate plural nouns based on determiner">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="nom_number_from_det">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="pos"/>
+              <clip pos="1" side="tl" part="gloss"/>
+              <clip pos="1" side="tl" part="number"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="pos"/>
+              <clip pos="2" side="tl" part="number"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="RULE: Rearrange and translate simple sentences (ADJ DET NOM)">
       <pattern>
         <pattern-item n="adj"/>
@@ -139,6 +193,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="nom_number_from_det">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
           <chunk name="n">
             <tags>
@@ -182,6 +240,10 @@
         <pattern-item n="prn_dem"/>
       </pattern>
       <action>
+        <call-macro n="nom_number_from_det">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk name="n">
             <tags>

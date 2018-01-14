@@ -127,16 +127,10 @@
       <choose>
         <when>
           <test>
-			<and>
-              <equal>
-                <clip pos="1" side="sl" part="number"/>
-                <lit-tag v="sp"/>
-              </equal>
-              <equal>
+            <equal>
                 <clip pos="2" side="sl" part="number"/>
                 <lit-tag v="sg"/>
-              </equal>
-			</and>
+            </equal>
           </test>
           <let>
             <clip pos="1" side="tl" part="number"/>
@@ -145,20 +139,18 @@
         </when>
         <when>
           <test>
-			<and>
-              <equal>
-                <clip pos="1" side="sl" part="number"/>
-                <lit-tag v="sp"/>
-              </equal>
-              <equal>
+            <equal>
                 <clip pos="2" side="sl" part="number"/>
                 <lit-tag v="pl"/>
-              </equal>
-			</and>
+            </equal>
           </test>
           <let>
             <clip pos="1" side="tl" part="number"/>
             <lit-tag v="pl"/>
+          </let>
+          <let>
+            <clip pos="2" side="tl" part="number"/>
+            <lit-tag v="sg"/>
           </let>
         </when>
       </choose>
