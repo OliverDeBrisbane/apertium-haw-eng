@@ -49,7 +49,7 @@
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
     </def-attr>
-	  
+      
     <def-attr n="gloss">
       <attr-item tags="ant"/>
       <attr-item tags="top"/>
@@ -106,11 +106,11 @@
       <attr-item tags="aff"/>
       <attr-item tags="itg"/>
       <attr-item tags="neg"/>
-	  <attr-item tags="impf"/>
-	  <attr-item tags="infp"/>
-	  <attr-item tags="pfut"/>
-	</def-attr>
-	  
+      <attr-item tags="impf"/>
+      <attr-item tags="infp"/>
+      <attr-item tags="pfut"/>
+    </def-attr>
+      
     <def-attr n="gender">
         <attr-item tags="m"/>
         <attr-item tags="f"/>
@@ -132,61 +132,61 @@
   </section-def-macros>
 
   <section-rules>
-	<rule comment="RULE: Rearrange and translate simple sentences (ADJ DET NOM)">
-	  <pattern>
-		<pattern-item n="adj"/>
-		<pattern-item n="det"/>
-		<pattern-item n="nom"/>
-	  </pattern>
-	  <action>
-		<out>
-		  <chunk name="n">
-			<tags>
-			  <tag><lit-tag v="SN"/></tag>
-			</tags>
+    <rule comment="RULE: Rearrange and translate simple sentences (ADJ DET NOM)">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="pos"/>
               <clip pos="2" side="tl" part="gloss"/>
               <clip pos="2" side="tl" part="number"/>
             </lu>
-			<b/>
+            <b/>
             <lu>
               <clip pos="3" side="tl" part="lem"/>
               <clip pos="3" side="tl" part="pos"/>
               <clip pos="3" side="tl" part="number"/>
             </lu>
-			<b/>
-			<lu>
-			  <lit v="be"/>
+            <b/>
+            <lu>
+              <lit v="be"/>
               <lit-tag v="vbser"/>
               <lit-tag v="pres"/>
               <lit-tag v="p3"/>
               <clip pos="3" side="tl" part="number"/>
-			</lu>
+            </lu>
             <b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="pos"/>
               <clip pos="1" side="tl" part="gloss"/>
             </lu>
-		  </chunk>
-		</out>
-	  </action>
-	</rule>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
-	<rule comment="RULE: Rearrange and translate simple sentences (DET-DEF NOM PRN-DEM)">
-	  <pattern>
-		<pattern-item n="det_def"/>
-		<pattern-item n="nom"/>
-		<pattern-item n="prn_dem"/>
-	  </pattern>
-	  <action>
-		<out>
-		  <chunk name="n">
-			<tags>
-			  <tag><lit-tag v="SN"/></tag>
-			</tags>
+    <rule comment="RULE: Rearrange and translate simple sentences (DET-DEF NOM PRN-DEM)">
+      <pattern>
+        <pattern-item n="det_def"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="prn_dem"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
             <lu>
               <clip pos="3" side="tl" part="lem"/>
               <clip pos="3" side="tl" part="pos"/>
@@ -194,15 +194,15 @@
               <clip pos="3" side="tl" part="gender"/>
               <clip pos="3" side="tl" part="number"/>
             </lu>
-			<b/>
-			<lu>
-			  <lit v="be"/>
+            <b/>
+            <lu>
+              <lit v="be"/>
               <lit-tag v="vbser"/>
               <lit-tag v="pres"/>
               <lit-tag v="p3"/>
               <clip pos="3" side="tl" part="number"/>
-			</lu>
-			<b/>
+            </lu>
+            <b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="pos"/>
@@ -215,10 +215,10 @@
               <clip pos="2" side="tl" part="pos"/>
               <clip pos="2" side="tl" part="number"/>
             </lu>
-		  </chunk>
-		</out>
-	  </action>
-	</rule>
+          </chunk>
+        </out>
+      </action>
+    </rule>
   </section-rules>
 </transfer>
 

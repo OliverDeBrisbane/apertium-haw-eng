@@ -49,7 +49,7 @@
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
     </def-attr>
-	  
+      
     <def-attr n="gloss">
       <attr-item tags="ant"/>
       <attr-item tags="top"/>
@@ -106,11 +106,11 @@
       <attr-item tags="aff"/>
       <attr-item tags="itg"/>
       <attr-item tags="neg"/>
-	  <attr-item tags="impf"/>
-	  <attr-item tags="infp"/>
-	  <attr-item tags="pfut"/>
-	</def-attr>
-	  
+      <attr-item tags="impf"/>
+      <attr-item tags="infp"/>
+      <attr-item tags="pfut"/>
+    </def-attr>
+      
     <def-attr n="gender">
         <attr-item tags="m"/>
         <attr-item tags="f"/>
@@ -123,76 +123,138 @@
   </section-def-vars>
 
   <section-def-macros>
-    <def-macro n="test" npar="1">
+    <def-macro n="det_number_from_nom" npar="2">
+      <choose>
+        <when>
+          <test>
+             <equal>
+                <clip pos="2" side="sl" part="number"/>
+                <lit-tag v="sg"/>
+              </equal>
+          </test>
           <let>
-            <var n="number"/>
-            <lit v=""/>
+            <clip pos="1" side="tl" part="number"/>
+            <lit-tag v="sg"/>
           </let>
+        </when>
+        <when>
+          <test>
+             <equal>
+                <clip pos="2" side="sl" part="number"/>
+                <lit-tag v="pl"/>
+              </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="number"/>
+            <lit-tag v="pl"/>
+          </let>
+        </when>
+      </choose>
     </def-macro>
   </section-def-macros>
 
   <section-rules>
-	<rule comment="RULE: Rearrange and translate simple sentences (DET NOM VBSER ADJ)">
-	  <pattern>
-		<pattern-item n="det"/>
-		<pattern-item n="nom"/>
-		<pattern-item n="vbser"/>
-		<pattern-item n="adj"/>
-	  </pattern>
-	  <action>
-		<out>
-		  <chunk name="n">
-			<tags>
-			  <tag><lit-tag v="SN"/></tag>
-			</tags>
-            <lu>
-              <clip pos="4" side="tl" part="lem"/>
-              <clip pos="4" side="tl" part="pos"/>
-            </lu>
-			<b/>
+    <rule comment="RULE: Translate determiners (pattern: DET NOM)">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="det_number_from_nom">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="pos"/>
               <clip pos="1" side="tl" part="gloss"/>
               <clip pos="1" side="tl" part="number"/>
             </lu>
-			<b/>
+            <b/>
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="pos"/>
               <clip pos="2" side="tl" part="number"/>
             </lu>
-		  </chunk>
-		</out>
-	  </action>
-	</rule>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
-	<rule comment="RULE: Rearrange and translate simple sentences (PRN-DEM VBSER DET-DEF NOM)">
-	  <pattern>
-		<pattern-item n="prn_dem"/>
-		<pattern-item n="vbser"/>
-		<pattern-item n="det_def"/>
-		<pattern-item n="nom"/>
-	  </pattern>
-	  <action>
-		<out>
-		  <chunk name="n">
-			<tags>
-			  <tag><lit-tag v="SN"/></tag>
-			</tags>
+    <rule comment="RULE: Rearrange and translate simple sentences (DET NOM VBSER ADJ)">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="vbser"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+		<call-macro n="det_number_from_nom">
+		  <with-param pos="1"/>
+		  <with-param pos="2"/>
+		</call-macro>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="4" side="tl" part="lem"/>
+              <clip pos="4" side="tl" part="pos"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="pos"/>
+              <clip pos="1" side="tl" part="gloss"/>
+              <clip pos="1" side="tl" part="number"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="pos"/>
+              <clip pos="2" side="tl" part="number"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: Rearrange and translate simple sentences (PRN-DEM VBSER DET-DEF NOM)">
+      <pattern>
+        <pattern-item n="prn_dem"/>
+        <pattern-item n="vbser"/>
+        <pattern-item n="det_def"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="det_number_from_nom">
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
             <lu>
               <clip pos="3" side="tl" part="lem"/>
               <clip pos="3" side="tl" part="pos"/>
               <clip pos="3" side="tl" part="gloss"/>
               <clip pos="3" side="tl" part="number"/>
             </lu>
-			<b/>
+            <b/>
             <lu>
               <clip pos="4" side="tl" part="lem"/>
               <clip pos="4" side="tl" part="pos"/>
               <clip pos="4" side="tl" part="number"/>
             </lu>
-			<b/>
+            <b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="pos"/>
@@ -200,10 +262,10 @@
               <clip pos="1" side="tl" part="gender"/>
               <clip pos="1" side="tl" part="number"/>
             </lu>
-		  </chunk>
-		</out>
-	  </action>
-	</rule>
+          </chunk>
+        </out>
+      </action>
+    </rule>
   </section-rules>
 </transfer>
 
