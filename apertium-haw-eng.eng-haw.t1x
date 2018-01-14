@@ -148,10 +148,6 @@
             <clip pos="1" side="tl" part="number"/>
             <lit-tag v="pl"/>
           </let>
-          <let>
-            <clip pos="2" side="tl" part="number"/>
-            <lit-tag v="sg"/>
-          </let>
         </when>
       </choose>
     </def-macro>
@@ -183,7 +179,6 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="pos"/>
-              <clip pos="2" side="tl" part="number"/>
             </lu>
           </chunk>
         </out>
@@ -222,7 +217,6 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="pos"/>
-              <clip pos="2" side="tl" part="number"/>
             </lu>
           </chunk>
         </out>
@@ -256,7 +250,6 @@
             <lu>
               <clip pos="4" side="tl" part="lem"/>
               <clip pos="4" side="tl" part="pos"/>
-              <clip pos="4" side="tl" part="number"/>
             </lu>
             <b/>
             <lu>

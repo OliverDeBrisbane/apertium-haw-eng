@@ -2,6 +2,7 @@
 <transfer default="chunk">
   <section-def-cats>
     <def-cat n="nom">
+      <cat-item tags="n"/>
       <cat-item tags="n.*"/>
     </def-cat>
     <def-cat n="adj">
@@ -119,7 +120,7 @@
   </section-def-attrs>
 
   <section-def-vars>
-    <def-var n="n"/>
+    <def-var n="numero"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -133,8 +134,10 @@
 		    </equal>
           </test>
           <let>
-            <clip pos="2" side="tl" part="number"/>
-            <lit-tag v="sg"/>
+			<var n="numero"/>
+			<concat>
+			<lit-tag v="sg"/>
+			</concat>
           </let>
         </when>
         <when>
@@ -145,8 +148,10 @@
 		    </equal>
           </test>
           <let>
-            <clip pos="2" side="tl" part="number"/>
-            <lit-tag v="pl"/>
+			<var n="numero"/>
+			<concat>
+			<lit-tag v="pl"/>
+			</concat>
           </let>
         </when>
       </choose>
@@ -179,7 +184,7 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="pos"/>
-              <clip pos="2" side="tl" part="number"/>
+			  <var n="numero"/>           
             </lu>
           </chunk>
         </out>
@@ -212,7 +217,7 @@
             <lu>
               <clip pos="3" side="tl" part="lem"/>
               <clip pos="3" side="tl" part="pos"/>
-              <clip pos="3" side="tl" part="number"/>
+			  <var n="numero"/>           
             </lu>
             <b/>
             <lu>
@@ -220,7 +225,7 @@
               <lit-tag v="vbser"/>
               <lit-tag v="pres"/>
               <lit-tag v="p3"/>
-              <clip pos="3" side="tl" part="number"/>
+			  <var n="numero"/>           
             </lu>
             <b/>
             <lu>
@@ -275,7 +280,7 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="pos"/>
-              <clip pos="2" side="tl" part="number"/>
+			  <var n="numero"/>           
             </lu>
           </chunk>
         </out>
@@ -292,4 +297,3 @@ Resources:
     http://wiki.apertium.org/wiki/A_long_introduction_to_transfer_rules
     http://wiki.apertium.org/wiki/Transfer#Adding_structural_transfer_.28grammar.29_rules
 -->
-
