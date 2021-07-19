@@ -1,0 +1,16 @@
+[0DUCxD10owuT#0] ^,<cm>/,<cm>$
+[/0DUCxD10owuT]
+[6wKV2Y83rp6V#0] ^tutu<n>/grandmother<n>$
+[/6wKV2Y83rp6V]
+[IDVJaN28O7iw#0] ^iho<vblex><pres>/descend<vblex><pres>$
+[/IDVJaN28O7iw]
+[QbgF6nrAFOI1#0] ^;<sent>/;<sent>$
+[/QbgF6nrAFOI1]
+[WB0HcMv47cvo#0] ^makemake<vblex><pii>/want<vblex><pii>$
+[/WB0HcMv47cvo]
+[_Wkd9eEekL7P#0] ^kanu<vblex><inf>/plant<vblex><inf>$
+[/_Wkd9eEekL7P]
+[bywdDeKqrzQg#0] ^¶<sent>/¶<sent>$
+[/bywdDeKqrzQg]
+[u3IIvJtdfATx#0] ^!<sent>/!<sent>$
+[/u3IIvJtdfATx]

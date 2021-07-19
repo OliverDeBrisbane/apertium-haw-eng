@@ -1,0 +1,24 @@
+[0DUCxD10owuT#0] ^,<cm>/,<cm>$
+[/0DUCxD10owuT]
+[7cANTbgN3D6R#0] ^be<vbser><pres><p3><sg>/<vbser><pres><p3><sg>$
+[/7cANTbgN3D6R]
+[LmZZqjU5swAQ#0] ^be<vbser><pres><p3><sg>/<vbser><pres><p3><sg>$
+[/LmZZqjU5swAQ]
+[O4DTj3aGqLX4#0] ^mountain<n><sg>/kuahiwi<n><sg>/mauna<n><sg>$
+[/O4DTj3aGqLX4]
+[TXDsg3YS9jRz#0] ^Saturday<n><pl>/Poʻaono<n><pl>$
+[/TXDsg3YS9jRz]
+[VIIYzDtYUE6s#0] ^be<vbser><pres><p3><sg>/<vbser><pres><p3><sg>$
+[/VIIYzDtYUE6s]
+[iHtAa1ANAYDW#0] ^that<prn><dem><mf><sg>/kela<prn><dem><mf><sg>$ ^be<vbser><pres><p3><sg>/<vbser><pres><p3><sg>$
+[/iHtAa1ANAYDW]
+[io3oI9XtPhJ0#0] ^?<sent>/?<sent>$
+[/io3oI9XtPhJ0]
+[mm4zITTX6fcP#0] ^Christmas<n><pl>/kalikimaka<n><pl>$
+[/mm4zITTX6fcP]
+[u3IIvJtdfATx#0] ^!<sent>/!<sent>$
+[/u3IIvJtdfATx]
+[x0asSdwZ1AE1#0] ^Tuesday<n><pl>/Poʻalua<n><pl>$
+[/x0asSdwZ1AE1]
+[zc6CGMGZ_Srj#0] ^island<n><pl>/moku<n><pl>/mokupuni<n><pl>$
+[/zc6CGMGZ_Srj]

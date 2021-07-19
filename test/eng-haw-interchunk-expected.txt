@@ -1,0 +1,24 @@
+[0DUCxD10owuT#0] ^default<default>{^,<cm>$}$
+[/0DUCxD10owuT]
+[7cANTbgN3D6R#0] ^default<default>{^<vbser><pres><p3><sg>$}$
+[/7cANTbgN3D6R]
+[LmZZqjU5swAQ#0] ^default<default>{^<vbser><pres><p3><sg>$}$
+[/LmZZqjU5swAQ]
+[O4DTj3aGqLX4#0] ^default<default>{^kuahiwi<n><sg>$}$
+[/O4DTj3aGqLX4]
+[TXDsg3YS9jRz#0] ^default<default>{^Poʻaono<n><pl>$}$
+[/TXDsg3YS9jRz]
+[VIIYzDtYUE6s#0] ^default<default>{^<vbser><pres><p3><sg>$}$
+[/VIIYzDtYUE6s]
+[iHtAa1ANAYDW#0] ^default<default>{^kela<prn><dem><mf><sg>$}$ ^default<default>{^<vbser><pres><p3><sg>$}$
+[/iHtAa1ANAYDW]
+[io3oI9XtPhJ0#0] ^default<default>{^?<sent>$}$
+[/io3oI9XtPhJ0]
+[mm4zITTX6fcP#0] ^default<default>{^kalikimaka<n><pl>$}$
+[/mm4zITTX6fcP]
+[u3IIvJtdfATx#0] ^default<default>{^!<sent>$}$
+[/u3IIvJtdfATx]
+[x0asSdwZ1AE1#0] ^default<default>{^Poʻalua<n><pl>$}$
+[/x0asSdwZ1AE1]
+[zc6CGMGZ_Srj#0] ^default<default>{^moku<n><pl>$}$
+[/zc6CGMGZ_Srj]

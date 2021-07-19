@@ -1,0 +1,10 @@
+{
+    "eng-haw": {
+        "input": "eng-haw-input.txt",
+        "mode": "eng-haw"
+    },
+    "haw-eng": {
+        "input": "haw-eng-input.txt",
+        "mode": "haw-eng"
+    }
+}
